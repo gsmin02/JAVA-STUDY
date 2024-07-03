@@ -4,5 +4,5 @@
 /**
  * 
  */
-module TEST_Project {
+module test_project {
 }
