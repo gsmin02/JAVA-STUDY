@@ -19,7 +19,7 @@ public class Menu {
 		// 목록 출력
 		System.out.println("==============================");
 		for(int i = 1; i < menu.length; i++) {
-			System.out.print(i + ". " + menu[i] + "   ");
+			System.out.print(i + ". " + menu[i] + "\t");
 			if(i % line == 0) { System.out.print("\n"); }
 		}
 		System.out.println("원하는 메뉴(1~" + (menu.length - 1) + ")를 선택하세요.(종료: 0)");
