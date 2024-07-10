@@ -12,7 +12,7 @@ public class Main {
 			menu.printMenu();
 			// 입력 받기
 			int input = sc.nextInt();
-			// 입력받은 값 넘겨주기
+			// 입력 값 넘겨주기
 			new Process(input);
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("0~" + (menu.getMenu() - 1) + "번까지 입력해주세요.");
