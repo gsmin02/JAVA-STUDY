@@ -9,6 +9,9 @@ class DBUtil {
 	 * DBUtil 의 경우 내용이 어렵기도 하고,
 	 * 실무에서도 잘 안 쓰일 만한 내용이라
 	 * 따로 추가하지 않아도 됨
+	 * 
+	 * 추가 + 프로젝트 파일로 옮긴 경우 다음과 같이 경로 수정
+	 * "src/bookstore_priview/" -> "src/bookstore/"
 	 */
 	
 	public static String filePath = "src/bookstore_priview/";
