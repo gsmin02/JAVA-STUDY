@@ -50,13 +50,18 @@ public class Book {
     
     public static void updateBook(int index, String title, String author, String company, int price, String preview) {
     	/*
-    	 * Account 의 update 와 동일한 형식
+    	 * 들어오는 인자 값을 합치는 String 선언
+    	 * String updatedBookData = index + "," + title + "," + author + "," + company + "," + price + "," + preview
+    	 * DBUtil에 있는 update 함수 호출, DB 지정, index, Data 넣기
+    	 * DBUtil.update("book", index, updatedBookData)
+    	 * 
     	 */
     }
     
     public static void deleteBook(int index) {
     	/*
-    	 * Account 의 delete 와 동일한 형식
+    	 * 들어오는 값의 index 및 DB만 지정
+    	 * DBUtil.delete("book", index)
     	 */
     }
 }
